@@ -1,5 +1,8 @@
 % rebase('layout.tpl', title='Home Page', year=2018)
 <a href="/blog/add" class="btn btn-success" role="button">Add Post</a>
+<form name="search" action="/home" method="get">
+		Title:<input type="text"  name="txtTitle" value=''/>Text:<input type="text"  name="txtText" value=''/>Tags:<input type="text"  name="txtTags" value=''/> <input class="btn btn-primary" type="submit" value="Submit">
+</form>
 <table class="table">
     <tr>
         <th>Title</th>
